@@ -53,6 +53,8 @@ Common hyperparameter tuning techniques such as GridSearch and Random Search roa
 
 __Hyperparameter tuning by means of Bayesian reasoning, or Bayesian Optimisation, can bring down the time spent to get to the optimal set of parameters — and bring better generalisation performance on the test set. It does this by taking into account information on the hyperparameter combinations it has seen thus far when choosing the hyperparameter set to evaluate next.__
 
+In other words, Bayesian Optimization also runs models many times with different sets of hyperparameter values, but it evaluates the past model information to select hyperparameter values to build the newer model. This is said to spend less time to reach the highest accuracy model.
+
 
 
 
