@@ -46,11 +46,11 @@ We can use the plot_convergence method from scikit-optimize to plot one or sever
 
 ![alt text](https://scikit-optimize.github.io/stable/_images/sphx_glr_bayesian-optimization_002.png)
 
-# Why we should use Bayesian Optimisation?
+# Why we should use Bayesian Optimization?
 
 Common hyperparameter tuning techniques such as GridSearch and Random Search roam the full space of available parameter values in an isolated way without paying attention to past results. Tuning by means of these techniques can become a time-consuming challenge especially with large parameters spaces. 
 
-__Hyperparameter tuning by means of Bayesian reasoning, or Bayesian Optimisation, can bring down the time spent to get to the optimal set of parameters — and bring better generalisation performance on the test set. It does this by taking into account information on the hyperparameter combinations it has seen thus far when choosing the hyperparameter set to evaluate next.__
+__Hyperparameter tuning by means of Bayesian reasoning, or Bayesian Optimization, can bring down the time spent to get to the optimal set of parameters — and bring better generalisation performance on the test set. It does this by taking into account information on the hyperparameter combinations it has seen thus far when choosing the hyperparameter set to evaluate next.__
 
 In other words, Bayesian Optimization also runs models many times with different sets of hyperparameter values, but it evaluates the past model information to select hyperparameter values to build the newer model. This is said to spend less time to reach the highest accuracy model.
 
