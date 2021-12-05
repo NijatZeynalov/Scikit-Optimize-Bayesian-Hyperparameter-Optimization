@@ -55,11 +55,16 @@ __Hyperparameter tuning by means of Bayesian reasoning, or Bayesian Optimisation
 
 In other words, Bayesian Optimization also runs models many times with different sets of hyperparameter values, but it evaluates the past model information to select hyperparameter values to build the newer model. This is said to spend less time to reach the highest accuracy model.
 
+So how does it work? There are three main ingredients to it:
 
-
+__the search space to sample parameters from
+an objective function
+a surrogate- and a selection function__
 
 Overall, I think Scikit-Optimize is a pleasure to use, gives you great results, and useful visualizations. Also, it has a lot of options to tweak with strong documentation to guide you through it.
 
 # Resources:
 
 https://towardsdatascience.com/the-beauty-of-bayesian-optimization-explained-in-simple-terms-81f3ee13b10f
+
+https://brendanhasz.github.io/2019/03/28/hyperparameter-optimization.html
