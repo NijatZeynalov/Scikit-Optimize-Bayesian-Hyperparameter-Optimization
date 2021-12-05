@@ -41,9 +41,11 @@ __gbrt_minimize__ — Sequential optimization using gradient boosted trees.
 
 __gp_minimize__ — Bayesian optimization using Gaussian Processes.
 
+# Plot Convergence Traces
 
+We can use the plot_convergence method from scikit-optimize to plot one or several convergence traces. We just need to pass the OptimizeResult object (result) in the plot_convergence method. For example, in the below plot a good value is found approximately after 10 iterations, but we need the 30 to find the minimum. 
 
-
+![alt text](https://scikit-optimize.github.io/stable/_images/sphx_glr_bayesian-optimization_002.png)
 
 
 Overall, I think Scikit-Optimize is a pleasure to use, gives you great results, and useful visualizations. Also, it has a lot of options to tweak with strong documentation to guide you through it.
