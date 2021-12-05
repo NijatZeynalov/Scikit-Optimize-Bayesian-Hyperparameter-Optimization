@@ -19,3 +19,26 @@ _Example: Integer(low=3, high=25, name="max_features")_
 __Categorical__ — This is a search space dimension that can take on categorical values.
 
 _Example: Categorical(["gini","entropy"],name="criterion")_
+
+
+# Objective Function
+
+This is a function that will be called by the search procedure. It receives hyperparameter values as input from the search space and returns the loss (the lower the better). This means that during the optimization process, we train the model with selected hyperparameter values and predict the target feature. Then we evaluate the prediction error and give it back to the optimizer.
+
+The optimizer will decide which values to check and iterate over again. You will learn how to create an objective function in the practical example in the notebook.
+
+# Optimizer
+
+This is the function that performs the Bayesian Hyperparameter Optimization process. The optimization function iterates at each model and the search space to optimize and then minimizes the objective function.
+
+There are different optimization functions provided by the scikit-optimize library, such as:
+
+__dummy_minimize__ — Random search by uniform sampling within the given bounds.
+
+__forest_minimize__ — Sequential optimization using decision trees.
+
+__gbrt_minimize__ — Sequential optimization using gradient boosted trees.
+
+__gp_minimize__ — Bayesian optimization using Gaussian Processes.
+
+Note: we will implement gp_minimize in the practical example below.
