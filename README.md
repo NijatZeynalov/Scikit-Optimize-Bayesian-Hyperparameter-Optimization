@@ -47,5 +47,13 @@ We can use the plot_convergence method from scikit-optimize to plot one or sever
 
 ![alt text](https://scikit-optimize.github.io/stable/_images/sphx_glr_bayesian-optimization_002.png)
 
+# Why we should use Bayesian Optimisation?
+
+Hyperparameter tuning by means of Bayesian reasoning, or Bayesian Optimisation, can bring down the time spent to get to the optimal set of parameters — and bring better generalisation performance on the test set. It does this by taking into account information on the hyperparameter combinations it has seen thus far when choosing the hyperparameter set to evaluate next.
+
 
 Overall, I think Scikit-Optimize is a pleasure to use, gives you great results, and useful visualizations. Also, it has a lot of options to tweak with strong documentation to guide you through it.
+
+# Resources:
+
+https://towardsdatascience.com/the-beauty-of-bayesian-optimization-explained-in-simple-terms-81f3ee13b10f
