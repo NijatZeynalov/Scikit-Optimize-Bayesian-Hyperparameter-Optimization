@@ -41,4 +41,9 @@ __gbrt_minimize__ — Sequential optimization using gradient boosted trees.
 
 __gp_minimize__ — Bayesian optimization using Gaussian Processes.
 
-Note: we will implement gp_minimize in the practical example below.
+
+
+
+
+
+Overall, I think Scikit-Optimize is a pleasure to use, gives you great results, and useful visualizations. Also, it has a lot of options to tweak with strong documentation to guide you through it.
